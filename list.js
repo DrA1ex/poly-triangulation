@@ -96,8 +96,8 @@ export class List {
 
 
     /**
-     * @param  {Node<T>} node
-     * @return {Node<T>}
+     * @param  {ListNode<T>} node
+     * @return {ListNode<T>}
      */
     next(node) {
         this.#throwIfNodeInvalid(node);
@@ -105,8 +105,8 @@ export class List {
     }
 
     /**
-     * @param  {Node<T>} node
-     * @return {Node<T>}
+     * @param  {ListNode<T>} node
+     * @return {ListNode<T>}
      */
     previous(node) {
         this.#throwIfNodeInvalid(node);
