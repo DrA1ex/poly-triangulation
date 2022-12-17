@@ -64,7 +64,7 @@ export function isClockwise(points) {
 
 /**
  * @param {List<IndexedPoint>} list
- * @param {Node<IndexedPoint>} origin
+ * @param {ListNode<IndexedPoint>} origin
  * @return {boolean}
  */
 function isEar(list, origin) {
@@ -91,9 +91,9 @@ function isEar(list, origin) {
 }
 
 /**
- * @param {Node<IndexedPoint>} origin
- * @param {Node<IndexedPoint>} prev
- * @param {Node<IndexedPoint>} next
+ * @param {ListNode<IndexedPoint>} origin
+ * @param {ListNode<IndexedPoint>} prev
+ * @param {ListNode<IndexedPoint>} next
  * @return {boolean}
  */
 function isNodeInternal(origin, prev, next) {
@@ -117,7 +117,7 @@ function isInternal(origin, prev, next) {
 
 /**
  * @param {List<IndexedPoint>} list
- * @param {Node<IndexedPoint>} origin
+ * @param {ListNode<IndexedPoint>} origin
  * @return {*[]}
  */
 function getTriangleIndices(list, origin) {
